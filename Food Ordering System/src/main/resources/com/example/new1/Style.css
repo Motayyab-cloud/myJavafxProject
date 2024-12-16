@@ -1,0 +1,11 @@
+.anchorpane{
+    -fx-background-image: url("background.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+.backgroundColor{
+    -fx-background-color: #5a5a61;
+}
+.text{
+    -fx-text-fill: #074365;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="abc333" prefHeight="500.0" prefWidth="700.0" styleClass="anchorpane" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.new1.scene1Controller">
+
+   <children>
+      <Text fx:id="text1" fill="WHITE" layoutX="174.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMAIL ID ">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <Text fx:id="text2" fill="WHITE" layoutX="184.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME ">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <Text fx:id="text3" fill="WHITE" layoutX="160.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT NO ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Text>
+      <Text fx:id="text4" fill="WHITE" layoutX="172.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADDRESS ">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <TextField fx:id="myTextFeild1" layoutX="285.0" layoutY="157.0" />
+      <TextField fx:id="myTextFeild2" layoutX="285.0" layoutY="209.0" />
+      <TextField fx:id="myTextFeild3" layoutX="285.0" layoutY="260.0" />
+      <TextField fx:id="myTextFeild4" layoutX="285.0" layoutY="314.0" />
+      <Button fx:id="myButton" layoutX="305.0" layoutY="389.0" mnemonicParsing="false" onAction="#submit" styleClass="backgroundColor" stylesheets="@Style.css" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Text fx:id="myheading" layoutX="174.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOOD ORDERING SYSTEM" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="myheading2" fill="WHITE" layoutX="233.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Your Details " underline="true">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
